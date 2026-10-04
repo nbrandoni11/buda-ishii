@@ -1,6 +1,8 @@
 # Buda Ishii
 
-Juego web pixel art en el que Ishii construye escuelas, hospitales, universidades y otras obras mientras se defiende de monstruos lanzando libros.
+Juego web pixel art en el que Ishii construye escuelas, hospitales, universidades, laboratorios, polos tecnológicos y otras obras mientras se defiende de monstruos lanzando libros.
+
+La campaña tiene tres niveles. Cada mapa es más amplio, incorpora más obras y aumenta progresivamente la velocidad, frecuencia y resistencia de los enemigos. El puntaje se acumula durante toda la partida.
 
 ## Controles
 
