@@ -35,13 +35,13 @@ const W=960,H=540,keys={},stars=Array.from({length:55},()=>({x:Math.random()*128
 let state,raf,last=0;
 const levels=[
  {worldW:960,worldH:540,roads:[[345,60]],spawnBase:170,minSpawn:48,enemySpeed:.80,enemyHp:2,damage:.13,moveSpeed:2.7,projects:[
-  [130,310,'ESCUELA',4,'#efb735'],[360,310,'HOSPITAL',6,'#e9e8df'],[600,310,'UNIVERSIDAD',8,'#9d79d6'],[830,310,'LABORATORIO',10,'#47b9a4'],[130,500,'POLO TECNOLÓGICO',12,'#3da8c5'],[360,500,'VIVIENDAS',14,'#e27636'],[600,500,'CENTRO DEPORTIVO',16,'#5bc66f'],[830,500,'GRAN OBRA',18,'#db6155']
+  [260,310,'ESCUELA',4,'#efb735'],[700,310,'HOSPITAL',7,'#e9e8df'],[260,500,'UNIVERSIDAD',10,'#9d79d6'],[700,500,'VIVIENDAS',13,'#e27636']
  ]},
  {worldW:1120,worldH:630,roads:[[390,72]],spawnBase:142,minSpawn:38,enemySpeed:.98,enemyHp:3,damage:.16,moveSpeed:3.15,projects:[
-  [110,350,'ESCUELA',7,'#efb735'],[335,350,'HOSPITAL',9,'#e9e8df'],[560,350,'UNIVERSIDAD',11,'#9d79d6'],[785,350,'LABORATORIO',13,'#47b9a4'],[1010,350,'POLO TECNOLÓGICO',15,'#3da8c5'],[110,580,'VIVIENDAS',17,'#e27636'],[335,580,'CENTRO DEPORTIVO',19,'#5bc66f'],[560,580,'ESCUELA',21,'#efb735'],[785,580,'HOSPITAL',23,'#e9e8df'],[1010,580,'GRAN OBRA',25,'#db6155']
+  [170,350,'ESCUELA',8,'#efb735'],[560,350,'HOSPITAL',11,'#e9e8df'],[950,350,'LABORATORIO',14,'#47b9a4'],[170,580,'POLO TECNOLÓGICO',17,'#3da8c5'],[560,580,'CENTRO DEPORTIVO',20,'#5bc66f'],[950,580,'GRAN OBRA',23,'#db6155']
  ]},
  {worldW:1280,worldH:720,roads:[[340,60],[520,60]],spawnBase:118,minSpawn:30,enemySpeed:1.14,enemyHp:4,damage:.19,moveSpeed:3.55,projects:[
-  [150,310,'ESCUELA',10,'#efb735'],[475,310,'HOSPITAL',12,'#e9e8df'],[805,310,'UNIVERSIDAD',14,'#9d79d6'],[1130,310,'LABORATORIO',16,'#47b9a4'],[150,498,'POLO TECNOLÓGICO',18,'#3da8c5'],[475,498,'VIVIENDAS',20,'#e27636'],[805,498,'CENTRO DEPORTIVO',22,'#5bc66f'],[1130,498,'ESCUELA',24,'#efb735'],[150,680,'HOSPITAL',26,'#e9e8df'],[475,680,'LABORATORIO',28,'#47b9a4'],[805,680,'UNIVERSIDAD',30,'#9d79d6'],[1130,680,'GRAN OBRA',32,'#db6155']
+  [200,310,'ESCUELA',12,'#efb735'],[640,310,'HOSPITAL',15,'#e9e8df'],[1080,310,'UNIVERSIDAD',18,'#9d79d6'],[350,498,'LABORATORIO',21,'#47b9a4'],[930,498,'POLO TECNOLÓGICO',24,'#3da8c5'],[200,680,'VIVIENDAS',27,'#e27636'],[640,680,'CENTRO DEPORTIVO',30,'#5bc66f'],[1080,680,'GRAN OBRA',33,'#db6155']
  ]}
 ];
 function loadLevel(levelIndex,score=0){let l=levels[levelIndex];Object.keys(keys).forEach(k=>keys[k]=false);state={run:true,t:0,score,confidence:100,levelIndex,worldW:l.worldW,worldH:l.worldH,scale:W/l.worldW,player:{x:l.worldW/2,y:l.worldH*.63,vx:0,vy:0,face:1,cool:0,throwT:0},pads:l.projects.map((p,i)=>({x:p[0],y:p[1],type:p[2],seconds:p[3],color:p[4],index:i,done:false,build:0})),people:[],haters:[],shots:[],sparks:[],spawn:0,active:0,msg:`NIVEL ${levelIndex+1} · ANDÁ A LA PRIMERA OBRA`,msgT:210,building:false,transition:0,levelCleared:false};}
