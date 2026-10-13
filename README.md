@@ -8,7 +8,9 @@ En cada etapa podés elegir entre dos obras disponibles. Al terminar todas, comi
 
 La dirección visual, los mapas, el personaje, los enemigos, los edificios, los libros y los efectos se integraron a partir del Artbook/GDD de octubre de 2026.
 
-Las obras no tienen ventajas individuales todavía: todas comparten la misma mecánica de construcción.
+Cada obra otorga un beneficio: construcción más rápida, recuperación de confianza, puntos adicionales, resistencia, mayor daño, disparo más rápido o velocidad de movimiento. La explicación completa está en el botón **BENEFICIOS** dentro del juego.
+
+La pérdida de confianza aumenta progresivamente entre niveles. Los enemigos siempre se orientan hacia Ishii y el personaje tiene animación de pasos al moverse.
 
 ## Controles
 
