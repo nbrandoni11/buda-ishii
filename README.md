@@ -10,7 +10,7 @@ La dirección visual, los mapas, el personaje, los enemigos, los edificios, los 
 
 Cada obra otorga un beneficio: construcción más rápida, recuperación de confianza, puntos adicionales, resistencia, mayor daño, disparo más rápido o velocidad de movimiento. La explicación completa está en el botón **BENEFICIOS** dentro del juego.
 
-La pérdida de confianza aumenta progresivamente entre niveles. Los enemigos siempre se orientan hacia Ishii y el personaje tiene animación de pasos al moverse.
+La pérdida de confianza aumenta progresivamente entre niveles. Ishii y los tres tipos de enemigo utilizan spritesheets de 12 fotogramas, con estados de caminata, reposo, ataque, daño y construcción o derrota. Los enemigos siempre se orientan hacia Ishii.
 
 ## Controles
 
