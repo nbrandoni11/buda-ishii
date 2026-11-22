@@ -6,7 +6,7 @@ La campaña tiene tres niveles de 4, 6 y 8 obras. Cada mapa es más amplio, tien
 
 En cada etapa podés elegir entre dos obras disponibles. Al terminar todas, comienza una oleada final con un jefe. Hay enemigos ágiles, pesados y lanzadores, música y efectos de sonido. El resultado final muestra tiempo, obras, enemigos derrotados y puntaje; el récord queda guardado en el navegador.
 
-La interfaz está diseñada primero para celulares y para jugarse en horizontal. No hay una pantalla de bloqueo ni una versión vertical: al girar el teléfono, el mapa conserva su relación de aspecto 16:9, aprovecha toda la pantalla y coloca los controles táctiles sobre los laterales, sin barras negras ni deformaciones. Permite moverse, construir y disparar simultáneamente con varios dedos. En mobile, los libros cuentan con una asistencia de apuntado moderada.
+La interfaz está diseñada primero para celulares y para jugarse en horizontal. No hay una pantalla de bloqueo ni una versión vertical: si el teléfono entra en vertical, toda la interfaz horizontal aparece rotada 90° para que el jugador simplemente gire el equipo. El mapa conserva su relación de aspecto 16:9 y los controles táctiles quedan superpuestos sobre los laterales, sin deformaciones. Permite moverse, construir y disparar simultáneamente con varios dedos. En mobile, los libros cuentan con una asistencia de apuntado moderada.
 
 La dirección visual, los mapas, el personaje, los enemigos, los edificios, los libros y los efectos se integraron a partir del Artbook/GDD de octubre de 2026.
 
